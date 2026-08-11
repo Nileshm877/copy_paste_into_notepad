@@ -46,6 +46,10 @@ public class CommonPage
 		
 	}
 	
-	
+	public String readTextFromFile() throws IOException {
+
+	    return java.nio.file.Files.readString(
+	            java.nio.file.Path.of("target/copiedText.txt"));
+	}
 	
 }
