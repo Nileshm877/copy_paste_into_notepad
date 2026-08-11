@@ -27,7 +27,7 @@ public class withoutToolkit_step extends BaseClass
 
 	}
 	@When("User clicks on Copy button without_TookKit")
-	public void user_clicks_on_copy_button_without_took_kit() throws HeadlessException, UnsupportedFlavorException, IOException
+	public void user_clicks_on_copy_button_without_took_kit() throws HeadlessException, UnsupportedFlavorException, IOException, InterruptedException
 	{
 		withoutTookKit_page cp = new withoutTookKit_page(driver);
 		cp.clickCopyButton();

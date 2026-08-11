@@ -2,6 +2,7 @@ package POM;
 
 import java.util.List;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -33,10 +34,12 @@ public class withoutTookKit_page
 	public void openurl(String url) throws InterruptedException
 	{
 		driver.get(url);
-		Thread.sleep(10000);
+		
+
+		
 	}
 
-	public void clickCopyButton() 
+	public void clickCopyButton() throws InterruptedException 
 	{
 		     WebElement ele=driver.findElement(copyButton);
 		   wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -44,6 +47,8 @@ public class withoutTookKit_page
 		     ele.click();
 
 	        System.out.println("Copy button clicked");
+	        
+	       
 		
 	}
 
