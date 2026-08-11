@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src\\test\\resources\\Feature\\copText_pasteText.feature",
+        features = "src\\test\\resources\\Feature\\copy_button.feature",
         		glue = {"StepDefination", "Utils"},
         plugin = {
                 "pretty",
