@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src\\test\\resources\\Feature\\Verify name is available or not.feature",
+        features = "src\\test\\resources\\Feature\\copText_pasteText.feature",
         		glue = {"StepDefination", "Utils"},
         plugin = {
                 "pretty",
@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
                 "json:target/cucumber.json",       
         }            
 )
-public class Runner 
+public class TestRunner 
 { 
 
 }
