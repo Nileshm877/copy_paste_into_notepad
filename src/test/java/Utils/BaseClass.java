@@ -24,6 +24,9 @@ public class BaseClass
         );
 
         options.setExperimentalOption("prefs", prefs);
+        options.addArguments(
+        	    "--unsafely-treat-insecure-origin-as-secure=https://www.w3schools.com"
+        	);
 
         driver = new ChromeDriver(options);
 
