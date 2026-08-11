@@ -12,7 +12,6 @@ public class CommonPage
 	WebDriver driver;
 	
 	
-	
 	By fullNameLocator = By.xpath("//*[text()='Full Name']");
 
 

@@ -24,7 +24,7 @@ public class CommonStep extends BaseClass
 	{
 		CommonPage cp = new CommonPage(driver);
 		cp.copy_paste();
-	}
+	} 
 
 
 
